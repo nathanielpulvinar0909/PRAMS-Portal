@@ -1,3 +1,91 @@
+# PRAMS Portal
+
+The PRAMS (Pasig River Automated Monitoring System) Portal is a comprehensive platform designed for monitoring and managing water quality in the Pasig River. It leverages automated data collection and integrates the Water Quality Index (WQI) to provide accurate, real-time insights. The portal is built using modern web technologies to ensure efficiency and scalability.
+
+## Key Features
+
+- **Automated Monitoring**: Continuous data collection from sensors deployed in the Pasig River.
+- **Water Quality Index Integration**: Real-time computation and display of WQI metrics.
+- **User-Friendly Interface**: Built with Tailwind CSS for a sleek and responsive design.
+- **Customizable Dashboards**: Allows users to view and analyze data based on their requirements.
+- **Secure and Scalable**: Developed with Next.js and TypeScript for robust performance.
+
+## Technologies Used
+
+- **Next.js**: Framework for server-side rendering and static site generation.
+- **TypeScript**: For improved code quality and maintainability.
+- **Tailwind CSS**: Ensures a responsive and modern user interface.
+
+## Project Structure
+
+The portal is organized into the following directories:
+
+- **`src/app`**: Core application files.
+  - **`assets`**: Static assets like images and fonts.
+  - **`components`**: Reusable UI components.
+  - **`pages`**: Page-level components for routing.
+  - **`services`**: API integrations and service utilities.
+  - **`utils`**: Helper functions for the application.
+
+## Installation and Setup
+
+Follow the steps below to set up the PRAMS Portal locally:
+
+### Prerequisites
+- Node.js (v14 or later)
+- npm or yarn (package manager)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd <project-folder>
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open the application in your browser at `http://localhost:3000`.
+
+## Contribution
+
+If you wish to contribute to the PRAMS Portal:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+### Contact
+For any queries, feel free to reach out to the maintainers of the PRAMS Portal.
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
